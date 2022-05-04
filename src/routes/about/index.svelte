@@ -30,7 +30,9 @@
     </p>
 
     <p>
-        In case you wanted to connect or talk to me, you can find me on <a class="link" target="_blank" href="https://instagram.com/vanvi">Instagram</a> or <a class="link" target="_blank" href="https://twitter.com/vanvi">Twitter</a> by clicking these links or by searching for <span class="link">@vanvi</span>.
+        In case you wanted to connect or talk to me, you can find me on 
+        <a class="link" target="_blank" href="https://instagram.com/vanvi.mp3">Instagram</a> by searching for <a class="link" target="_blank" href="https://instagram.com/vanvi.mp3">@vanvi.mp3</a> or
+        <a class="link" target="_blank" href="https://twitter.com/vanvi_mp3">Twitter</a> by searching for <a class="link" target="_blank" href="https://twitter.com/vanvi_mp3">@vanvi_mp3</a>.
         I've already done few collaborations with friends, so if you wanted to work with me - say Hi!
       </p>
 
