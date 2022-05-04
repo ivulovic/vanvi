@@ -1,0 +1,22 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 400;
+}
+:root{
+	--dark-main: #21181D;
+	--dark-light: #474040;
+	--light: #FFF;
+	--accent: #EF463F;
+	--neutral-main: rgb(181,181,181);
+	--neutral-dark: rgba(140,140,139,1);
+	--neutral-light: rgba(140,140,139,0.5);
+	--divider: rgba(140,140,139,0.2);
+}
+.ellipsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;  
+	display: block;
+}

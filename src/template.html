@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name='theme-color' content='#333333'>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<title>VANVI</title>
+
+	<!-- Keywords-->
+	<meta name="keywords" content="vanvi, music producer, serbia, muzicki producent, srbija" />
+
+	<!-- Title -->
+	<meta name="title" content="VANVI" />
+	<meta property="og:title" content="VANVI" />
+	<meta property="twitter:title" content="VANVI" />
+
+	<!-- Description -->
+	<meta name="description" content="Music producer who creates music that bring people together with timeless memories from all over the world." />
+	<meta property="og:description" content="Music producer who creates music that bring people together with timeless memories from all over the world." />
+	<meta property="twitter:description" content="Music producer who creates music that bring people together with timeless memories from all over the world." />
+
+	<!-- Image -->
+	<meta property="og:image" content="https://vanvi.xyz/logo-large.png" />
+	<meta property="twitter:image" content="https://vanvi.xyz/logo-large.png" />
+
+	<!-- Image alt -->
+	<meta property="og:image:alt" content="Logo of the vanvi.xyz website" />
+	<meta property="twitter:image:alt" content="Logo of the vanvi.xyz website" />
+
+	<!-- URL -->
+	<meta property="og:url" content="https://vanvi.xyz" />
+
+	<!-- Card-->
+	<meta property="og:type" content="website" />
+	<meta property="twitter:card" content="summary_large_image" />
+	
+	<!-- Fonts-->
+	<link href=https://fonts.gstatic.com rel=preconnect>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Roboto+Condensed:wght@300;400;500&display=swap"
+		rel=stylesheet>
+
+	<!-- Other -->
+	<base href=/>
+	<link href=global.css rel=stylesheet>
+
+	%sapper.base%
+
+	<link rel="stylesheet" href="global.css">
+	<link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="apple-touch-icon" href="logo-192.png">
+
+	<!-- Sapper creates a <script> tag containing `src/client.js`
+	     and anything else it needs to hydrate the app and
+	     initialise the router -->
+	%sapper.scripts%
+
+	<!-- Sapper generates a <style> tag containing critical CSS
+	     for the current page. CSS for the rest of the app is
+	     lazily loaded when it precaches secondary pages -->
+	%sapper.styles%
+
+	<!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+	%sapper.head%
+</head>
+
+<body>
+	<!-- The application will be rendered inside this element,
+	     because `src/client.js` references it -->
+	<div id="sapper">%sapper.html%</div>
+</body>
+
+</html>
