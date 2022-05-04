@@ -16,6 +16,7 @@ export const albums = [
             {id: '5', fileName: getAudio('garage/vanvi_soundtrack_5.mp3'), title: 'SOUNDTRACK 5', timestamp: 1651603878040 },
             {id: '6', fileName: getAudio('garage/vanvi_soundtrack_6.mp3'), title: 'SOUNDTRACK 6', timestamp: 1651603878040 },
             {id: '7', fileName: getAudio('garage/vanvi_soundtrack_7.mp3'), title: 'SOUNDTRACK 7', timestamp: 1651603878040 },
+            {id: '8', fileName: getAudio('garage/vanvi_soundtrack_8.mp3'), title: 'SOUNDTRACK 8', timestamp: 1651603878040 },
         ]
     }
 ]
