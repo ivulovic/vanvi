@@ -2,8 +2,7 @@
   import MusicPlayer from "../components/MusicPlayer.svelte";
   import { albums } from "./_content/albums.js";
 
-  const latestAlbum = albums[albums.length - 1].slug;
-  const activeAlbum = albums.find((x) => x.slug == latestAlbum);
+  const activeAlbum = albums[0];
 </script>
 
 <svelte:head>

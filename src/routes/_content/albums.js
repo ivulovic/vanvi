@@ -3,6 +3,16 @@ export const getAudio = (fileName) => `/audio/${fileName}`;
 
 export const albums = [
     {
+        id: 1,
+        slug: 'melodies',
+        name: 'Melodies',
+        performer: 'VANVI',
+        image: getImage('cover.jpg'),
+        tracks: [
+            {id: '1', fileName: getAudio('melodies/vanvi_melody_1.mp3'), title: 'MELODY 1', timestamp: 1651603878040 },
+        ]
+    },
+    {
         id: 0,
         slug: 'soundtracks',
         name: 'Soundtracks',
@@ -18,15 +28,5 @@ export const albums = [
             {id: '7', fileName: getAudio('soundtracks/vanvi_soundtrack_7.mp3'), title: 'SOUNDTRACK 7', timestamp: 1651603878040 },
             {id: '8', fileName: getAudio('soundtracks/vanvi_soundtrack_8.mp3'), title: 'SOUNDTRACK 8', timestamp: 1651603878040 },
         ]
-    },
-    {
-        id: 1,
-        slug: 'melodies',
-        name: 'Melodies',
-        performer: 'VANVI',
-        image: getImage('cover.jpg'),
-        tracks: [
-            {id: '1', fileName: getAudio('melodies/vanvi_melody_1.mp3'), title: 'MELODY 1', timestamp: 1651603878040 },
-        ]
-    },
+    }
 ]
