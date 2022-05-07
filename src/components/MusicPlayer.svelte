@@ -76,6 +76,8 @@
     max-width: 100%;
     display: flex;
     margin: 0 auto;
+    border-radius: 6px;
+    filter: hue-rotate(135deg);
   }
   audio {
     width: 100%;
