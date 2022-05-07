@@ -10,6 +10,7 @@ export const albums = [
         image: getImage('cover.jpg'),
         tracks: [
             {id: '1', fileName: getAudio('melodies/vanvi_melody_1.mp3'), title: 'MELODY 1', timestamp: 1651603878040 },
+            {id: '2', fileName: getAudio('melodies/vanvi_melody_2.mp3'), title: 'MELODY 2', timestamp: 1651603878040 },
         ]
     },
     {
