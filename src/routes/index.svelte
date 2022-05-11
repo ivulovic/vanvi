@@ -24,13 +24,17 @@
     gap: 1rem;
     grid-template-columns: 1fr 1fr;
   }
-  /* .page-content .left, */
+
   .page-content .right {
     padding: 2rem 2rem 2rem 1rem;
+    overflow: scroll;
+    max-height: calc(100vh - 79px);
+    box-sizing: border-box;
   }
+
   .page-content .left {
+    max-height: calc(100vh - 79px);
     background-image: url("/images/homebg.jpg");
-    /* min-height: 100vh; */
     background-position: top;
     background-size: cover;
     min-height: calc(100vh - 79px); /** 100% - headerHeight */
@@ -45,6 +49,7 @@
     }
     .page-content .right {
       padding: 0rem 1rem;
+      overflow: auto;
     }
     .page-content .right :global(.music-player) {
       max-width: unset;
