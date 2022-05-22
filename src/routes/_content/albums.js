@@ -3,6 +3,16 @@ export const getAudio = (fileName) => `/audio/${fileName}`;
 
 export const albums = [
     {
+        id: 2,
+        slug: 'energy',
+        name: 'Energy',
+        performer: 'VANVI',
+        image: getImage('cover.jpg'),
+        tracks: [
+            {id: '1', fileName: getAudio('energy/vanvi_soundtrack_1.mp3'), title: 'ENERGY 1', timestamp: 1653238486880 },
+        ]
+    },
+    {
         id: 1,
         slug: 'melodies',
         name: 'Melodies',
